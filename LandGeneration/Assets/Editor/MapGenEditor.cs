@@ -19,7 +19,7 @@ public class NewBehaviourScript : Editor
             }
         }
 
-        if(GUILayout.Button("Generate noise"))
+        if(GUILayout.Button("Generate Map"))
         {
             mapGen.GenerateMap();
         }
